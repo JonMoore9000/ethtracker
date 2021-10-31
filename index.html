@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://kit.fontawesome.com/eb5ad56605.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/ethlogo.png">
+    <title>EthCafe | Coffee & Crypto</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92Q4GECW5Z"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-92Q4GECW5Z');
+    </script>
+  </head>
+  <body>
+
+    <div class="nav">
+      <a href="#stats"><div class="item"><i class="fad fa-analytics"></i><p>Eth stats</p></div></a>
+      <a href="#thenews" id="middle"><div class="item"><i class="fad fa-newspaper"></i><p>Eth News</p></div></a>
+      <a href="#extra"><div class="item"><i class="fad fa-treasure-chest"></i><p>Extra Stuff</p></div></a>
+    </div>
+
+  <div class="content">
+    <div class="top" id="stats">
+      <div class="price-box">
+            <i class="fad fa-mug-hot"></i><div class="price"></div><button id="refresh" type="button" name="button"><i class="fad fa-sync-alt"></i></button>
+            <p>Ether Price</p>
+            <p id="bio">ETH is the lifeblood of Ethereum. When you send ETH or use an Ethereum application,
+              you'll pay a small fee in ETH to use the Ethereum network. This fee is an incentive for
+              a miner to process and verify what you're trying to do. Miners are like the record-keepers
+               of Ethereum – they check and prove that no one is cheating. Miners who do this work are
+               also rewarded with small amounts of newly-issued ETH. The work miners do keeps Ethereum
+               secure and free of centralized control. In other words, ETH powers Ethereum.
+                ETH will become even more important with staking. When you stake your ETH you'll be able
+                to help secure Ethereum and earn rewards. In this system, the threat of losing your ETH
+                disincentivises attacks. via <a href="https://ethereum.org/en/eth/" target="_blank">Etherscan</a></p>
+      </div>
+      <div class="art">
+        <p id="artist">Artist: <a href="https://viktorhachmang.nl/" target="_blank">Viktor Hachmang</a></p>
+      </div>
+    </div>
+
+  <div class="extra">
+    <div class="node-box">
+     <i class="fad fa-burrito"></i>
+     <div class="nodecount"></div>
+          <p>Total Node Count</p>
+    </div>
+   <div class="all-box">
+     <i class="fad fa-coffee-togo"></i>
+     <div class="alleth"></div>
+          <p>Total Ether</p>
+   </div>
+ </div>
+
+ <div class="extra">
+   <div class="node-box">
+    <i class="fad fa-croissant"></i>
+    <div class="transaction_time"></div>
+         <p>Estimated Transaction Time (Minutes)</p>
+   </div>
+  <div class="all-box">
+    <i class="fad fa-sandwich"></i>
+    <div class="erc"></div><button id="refreshTwo" type="button" name="button"><i class="fad fa-sync-alt"></i></button>
+         <p>Most Recent block Created</p>
+  </div>
+</div>
+
+  <div class="news" id="thenews">
+    <h2 class="eth-news"><i class="fad fa-newspaper"></i> Ethereum News</h2><p class="news-bio">via <a href="https://newscatcherapi.com/free-news-api" target="_blank">newscatcher</a> (because free api - lots of stuff from reddit lol)</p>
+    <div class="news-block"></div>
+  </div>
+
+  <div class="top links" id="extra">
+    <div class="arttwo">
+      <p id="artisttwo">Artist: <a href="https://viktorhachmang.nl/" target="_blank">Viktor Hachmang</a></p>
+    </div>
+    <div class="link_box">
+      <p class="link_header">More Ethereum Stuff </p><p class="stuff-bio">Just some stuff I like using.</p>
+      <div class="link-flex">
+        <a href="https://etherscan.io/" target="_blank"><div class="etherscan_box">
+          <button><i class="fad fa-analytics"></i> Etherscan</button>
+        </div></a>
+        <a href="https://ethereum.org/en/" target="_blank">
+          <div class="ethereum_box">
+          <button><i class="fad fa-head-side-brain"></i> Ethereum.org</button>
+        </div></a>
+        <a href="https://sequence.build/" target="_blank">
+          <div class="sequence_box">
+          <button><i class="fad fa-wallet"></i> Sequence Wallet</button>
+        </div></a>
+        <a href="https://www.skyweaver.net/" target="_blank">
+          <div class="skyweaver_box">
+          <button><i class="fad fa-gamepad-alt"></i> Skyweaver Game</button>
+        </div></a>
+      </div>
+      <p class="connect">Let's connect:</p>
+      <a href="https://twitter.com/pizzapoet_" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://etherscan.io/address/0x03175d871748dbe6044e873dcf0acd74ae4ae0a8" target="_blank"><i class="fab fa-ethereum"></i></a>
+      <a href="mailto:jonmoore9000@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+  <div id="policy">
+    <a  href="https://ethcafe.flycricket.io/privacy.html" target="_blank">Privacy Policy</a>
+  </div>
+
+  <script type='text/javascript' src='config.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js">
+
+  </script>
+  </body>
+</html>
