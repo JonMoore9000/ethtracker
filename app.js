@@ -1,4 +1,4 @@
-import { config } from './config.js';
+var config = require('./config.json');
 
 var token = config.API_TOKEN;
 var etherscan_token = config.ETHERSCAN_TOKEN;
