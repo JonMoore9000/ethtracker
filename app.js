@@ -1,3 +1,5 @@
+import config;
+
 var token = config.API_TOKEN;
 var etherscan_token = config.ETHERSCAN_TOKEN;
 
