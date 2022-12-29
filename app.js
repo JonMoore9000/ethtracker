@@ -1,4 +1,4 @@
-import config;
+import { config } from './config.js';
 
 var token = config.API_TOKEN;
 var etherscan_token = config.ETHERSCAN_TOKEN;
